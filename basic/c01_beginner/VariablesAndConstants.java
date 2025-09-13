@@ -28,6 +28,7 @@ public class VariablesAndConstants {
         var year = 2025;
         System.out.println(year);
 
+
         // Constantes
 
         final String EMAIL = "mouredev@gmail.com";

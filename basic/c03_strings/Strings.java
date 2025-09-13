@@ -57,7 +57,6 @@ public class Strings {
         // Mayúsculas y minúsculas
         System.out.println(name.toUpperCase());
         System.out.println(name.toLowerCase());
-
         System.out.println(name);
 
         /*
@@ -68,6 +67,8 @@ public class Strings {
         // Comprobar si contiene
         System.out.println("Hola, Java".contains("Brais"));
         System.out.println("Hola, Java".toUpperCase().contains("AVA"));
+        System.out.println("------>"+"Prueba".contains("Pru"));
+
 
         /*
         Clase 31 - equals
@@ -78,6 +79,7 @@ public class Strings {
         System.out.println(name.equals("Brais"));
         System.out.println(name.equals("brais"));
         System.out.println(name.equalsIgnoreCase("brais"));
+
 
         // == vs. equals
 
@@ -96,9 +98,12 @@ public class Strings {
 
         // Trim
         System.out.println(" Hola, me llamo Brais ".trim());
+        System.out.println(" aqui hay espacios    ".trim());
+
 
         // Replace
         System.out.println(" Hola, me llamo Brais ".replace("Brais", "Moure"));
+        System.out.println("Me encanta el color blanco".replace("blanco","azul"));
 
         /*
         Clase 33 - format
